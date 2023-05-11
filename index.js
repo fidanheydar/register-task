@@ -15,7 +15,7 @@ registerButton.addEventListener("click", ()=>{
     }
     arr.push(user)
     if(!emailInput.value.trim() || !passwordInput.value.trim() || !rePassword.value.trim() || passwordInput.value.trim()!=confirmPassword.value.trim()){
-        alert("Duzgun daxil  edin")
+        alert("Duzgun daxil edin")
         return
     }
     else{
